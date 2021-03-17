@@ -1,7 +1,7 @@
 import requests
 import json
 
-class toastSms:
+class toast:
     def send_message(phone, message):
         apiKey = "" # apiKey 입력
         url = "https://api-sms.cloud.toast.com/sms/v2.3/appKeys/{}/sender/sms".format(apiKey)
